@@ -221,14 +221,14 @@ We switched to the master branch and then told Git to merge our changes from
 
 So if you merged locally into master and tried to push your changes in master
 to this repo it will fail. Why? I'm not giving the whole world permissions to 
-edit my stuff! But I'm selfish, so I want people to help me. Welcome pull 
+edit my stuff! But I'm selfish and I want people to help me. So welcome pull 
 requests. Pull requests on Github allow anyone to open a request to pull in
-changes to your master branch (or any branch you choose), but those changes will
+changes into your master branch (or any branch you choose), but those changes will
 only be merged if you approve them. 
 
 Go to [Branches](https://github.com/nathandentzau/fsu-bootcamp-git/branches) and
 find your branch. To the right click the New pull request button. Enter a title
-and description of your pull request (these are normally a a description 
+and description of your pull request (these are normally a description 
 related to the changes you made so you can convince me these are good enough 
 changes to be added to my repo). Then click Create pull request.
 
