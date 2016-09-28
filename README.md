@@ -10,7 +10,6 @@ your computer you want to save your work. For me, it's the Freelance directory
 in my home folder:
 
 ```bash
-$ cd Freelance
 $ git clone https://github.com/nathandentzau/fsu-bootcamp-git.git
 ```
 
