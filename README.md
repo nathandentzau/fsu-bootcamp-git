@@ -189,10 +189,10 @@ sure to create a proper commit message!
 ### Pushing changes to a remote repository
 
 So when we cloned this repository from Github, git was smart enough to store
-information about where we downloaded the repo from. By default where we cloned
+information about where we downloaded the repo from. By default, where we cloned
 our repo from will be aliased as `origin` for our remote destination.
 
-So lets push our branches to Github:
+So lets push our branch to Github:
 
 ```bash
 $ git push origin [YOURNAME]/my-first-branch
@@ -254,7 +254,8 @@ right?**
 ### Resetting *(Danger Will Robinson!)*
 
 When we're resetting a branch there is no turning back. Once we reset it, it's
-gone forever. That's right, forever. 
+reset forever. That's right, forever. It's a good idea to never reset the master
+branch.
 
 ```bash
 $ git reset --hard [COMMIT_ID]
@@ -265,4 +266,4 @@ commit id we specified, any staged commits and unstaged commits. When we reset,
 we start with a clean slate from the commit id we specified.
 
 **Tip: Don't reset a branch if you're not comfortable. Read some online 
-tutorials to get more comfortable~**
+tutorials to get more comfortable first.**
