@@ -233,3 +233,36 @@ related to the changes you made so you can convince me these are good enough
 changes to be added to my repo). Then click Create pull request.
 
 Nice. I may or not approve it, but nice.
+
+## Undoing changes
+
+### Reverting
+
+We can revert (undo) a single commit by selecting that particular commit id to
+revert:
+
+```bash
+$ git revert [COMMIT_ID]
+```
+
+The commit ID can be found by typing `git log` and grabbing the first 7 
+characters of the hash.
+
+**Tip: Reverts can be reverted because reverts create their own commit. Cool 
+right?**
+
+### Resetting *(Danger Will Robinson!)*
+
+When we're resetting a branch there is no turning back. Once we reset it, it's
+gone forever. That's right, forever. 
+
+```bash
+$ git reset --hard [COMMIT_ID]
+```
+
+By resetting our branch we're going to remove all commits that came after the
+commit id we specified, any staged commits and unstaged commits. When we reset,
+we start with a clean slate from the commit id we specified.
+
+**Tip: Don't reset a branch if you're not comfortable. Read some online 
+tutorials to get more comfortable~**
