@@ -8,7 +8,7 @@ class HelloWorld extends Controller {
 
   protected $greeting;
 
-  public function __construct(string $greeting = '') {
+  public function __construct(string $greeting = 'Hi!') {
     $this->greeting = $greeting.
   }
 
